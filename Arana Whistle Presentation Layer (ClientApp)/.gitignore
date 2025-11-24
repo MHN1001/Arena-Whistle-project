@@ -1,0 +1,108 @@
+﻿# =========================
+# Visual Studio
+# =========================
+.vs/
+.vscode/
+*.code-workspace
+
+# =========================
+# Build Folders
+# =========================
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]ld/
+[Oo]ut/
+
+# =========================
+# User-specific Files
+# =========================
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Auto-generated Files
+# =========================
+*.Designer.cs
+*.generated.cs
+*.g.cs
+*.g.i.cs
+
+# =========================
+# Backup and Cache
+# =========================
+*.bak
+*.tmp
+*.cache
+*.log
+*.ncb
+*.sdf
+*.dbmdl
+
+# =========================
+# Visual Studio Code Coverage
+# =========================
+*.coverage
+*.coveragexml
+
+# =========================
+# NuGet Packages
+# =========================
+*.nupkg
+*.snupkg
+packages/
+# (Keep if you use package restore)
+!packages/build/
+
+# =========================
+# Windows-specific
+# =========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# Publish & Deployment
+# =========================
+*.publish.xml
+*.pubxml
+*.pubxml.user
+*.azurePubxml
+publish/
+AppPackages/
+*.appx
+*.appxbundle
+*.appxupload
+
+# =========================
+# Others
+# =========================
+*.DS_Store
+*.orig
+*.bak
+*.rej
+
+# =========================
+# WinForms Specific
+# =========================
+# Designer-generated resources
+*.resx
+*.resources
+# Cache for images or icons (if generated dynamically)
+Resources/*.cache
+
+# =========================
+# Configuration
+# =========================
+appsettings*.json
+launchSettings.json
+# Uncomment below if you store environment secrets locally
+# .env

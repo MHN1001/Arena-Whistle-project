@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{950780B3-0DDB-4C1C-A3FC-0A697C0803AE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Arana_Whistle_Presentation_Layer</RootNamespace>
+    <AssemblyName>Arana Whistle Presentation Layer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Arena Whistle Buisness layer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\BL &amp; DAL\Arena Whistle Buisness layer\bin\Debug\Arena Whistle Buisness layer.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="ShowAllStadiums_ControlLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ArenaWhistle_ControlLibrary\bin\Debug\ShowAllStadiums_ControlLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\AboutClient\ClientMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutClient\ClientMainForm.Designer.cs">
+      <DependentUpon>ClientMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login\Registry\SignUpForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login\Registry\SignUpForm2.Designer.cs">
+      <DependentUpon>SignUpForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\Booking\BookedStadiumsTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\Booking\BookedStadiumsTableForm.Designer.cs">
+      <DependentUpon>BookedStadiumsTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\Booking\BookingStadiumProcessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\Booking\BookingStadiumProcessForm.Designer.cs">
+      <DependentUpon>BookingStadiumProcessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\Booking\ShowBookingOverViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\Booking\ShowBookingOverViewForm.Designer.cs">
+      <DependentUpon>ShowBookingOverViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\Matches\CurrentMatchesAsTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\Matches\CurrentMatchesAsTableForm.Designer.cs">
+      <DependentUpon>CurrentMatchesAsTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\Reservation\ReserveStadiumForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\Reservation\ReserveStadiumForm.Designer.cs">
+      <DependentUpon>ReserveStadiumForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\Matches\ShowCurrentMatchTimeLeft.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\Matches\ShowCurrentMatchTimeLeft.Designer.cs">
+      <DependentUpon>ShowCurrentMatchTimeLeft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\Reservation\ReservedStadiumsTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\Reservation\ReservedStadiumsTableForm.Designer.cs">
+      <DependentUpon>ReservedStadiumsTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\Stadiums Zone\AvailableStadiumsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\Stadiums Zone\AvailableStadiumsForm.Designer.cs">
+      <DependentUpon>AvailableStadiumsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\Stadiums Zone\ShowAllStadiumsAsTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\Stadiums Zone\ShowAllStadiumsAsTableForm.Designer.cs">
+      <DependentUpon>ShowAllStadiumsAsTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\StadiumMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\StadiumMainForm.Designer.cs">
+      <DependentUpon>StadiumMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainMenu\MainMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainMenu\MainMenuForm.Designer.cs">
+      <DependentUpon>MainMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login\Registry\SignUpForm1cs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login\Registry\SignUpForm1cs.Designer.cs">
+      <DependentUpon>SignUpForm1cs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\Stadiums Zone\ShowAllStadiumsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StadiumMenu\Stadiums Zone\ShowAllStadiumsForm.Designer.cs">
+      <DependentUpon>ShowAllStadiumsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global Client\Global.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\AboutClient\ClientMainForm.resx">
+      <DependentUpon>ClientMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login\Registry\SignUpForm2.resx">
+      <DependentUpon>SignUpForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StadiumMenu\Booking\BookedStadiumsTableForm.resx">
+      <DependentUpon>BookedStadiumsTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StadiumMenu\Booking\BookingStadiumProcessForm.resx">
+      <DependentUpon>BookingStadiumProcessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StadiumMenu\Booking\ShowBookingOverViewForm.resx">
+      <DependentUpon>ShowBookingOverViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StadiumMenu\Matches\CurrentMatchesAsTableForm.resx">
+      <DependentUpon>CurrentMatchesAsTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StadiumMenu\Matches\ShowCurrentMatchTimeLeft.resx">
+      <DependentUpon>ShowCurrentMatchTimeLeft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StadiumMenu\Reservation\ReservedStadiumsTableForm.resx">
+      <DependentUpon>ReservedStadiumsTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StadiumMenu\Reservation\ReserveStadiumForm.resx">
+      <DependentUpon>ReserveStadiumForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StadiumMenu\Stadiums Zone\AvailableStadiumsForm.resx">
+      <DependentUpon>AvailableStadiumsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StadiumMenu\Stadiums Zone\ShowAllStadiumsAsTableForm.resx">
+      <DependentUpon>ShowAllStadiumsAsTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StadiumMenu\StadiumMainForm.resx">
+      <DependentUpon>StadiumMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainMenu\MainMenuForm.resx">
+      <DependentUpon>MainMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login\Registry\SignUpForm1cs.resx">
+      <DependentUpon>SignUpForm1cs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StadiumMenu\Stadiums Zone\ShowAllStadiumsForm.resx">
+      <DependentUpon>ShowAllStadiumsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\all-inclusive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-forward-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-back-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-login-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-account-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-stadium-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Default Male.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Default Femal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree_asian-games-olympic-games-football-player-kicking-ball_21519695.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <None Include="Resources\icons8-eye-100.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

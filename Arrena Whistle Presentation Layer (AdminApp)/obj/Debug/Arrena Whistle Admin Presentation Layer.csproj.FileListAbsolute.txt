@@ -1,0 +1,133 @@
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\obj\Debug\Arrena Whistle Admin Presentation Layer.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.DashBoardForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.MatchForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Properties.Resources.resources
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.StadiumBooking.resources
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.StadiumForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.StadiumReservation.resources
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\obj\Debug\Arrena Whistle Admin Presentation Layer.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\obj\Debug\Arrena Whistle Admin Presentation Layer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\bin\Debug\Arrena Whistle Admin Presentation Layer.exe.config
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\bin\Debug\Arrena Whistle Admin Presentation Layer.exe
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\bin\Debug\Arrena Whistle Admin Presentation Layer.pdb
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\bin\Debug\Arena Whistle Buisness layer.dll
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\bin\Debug\Arena Whistle Data Access Layer.dll
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\bin\Debug\Arena Whistle Buisness layer.pdb
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\bin\Debug\Arena Whistle Data Access Layer.pdb
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\obj\Debug\Arrena W.B72DB4C2.Up2Date
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\obj\Debug\Arrena Whistle Admin Presentation Layer.exe
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\obj\Debug\Arrena Whistle Admin Presentation Layer.pdb
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.AddUpdateClientForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.ClientTableForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.EmployeesForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Admin Presentation Layer\obj\Debug\Arrena Whistle Admin Presentation Layer.exe.config
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\Arrena Whistle Admin Presentation Layer.exe.config
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\Arrena Whistle Admin Presentation Layer.exe
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\Arrena Whistle Admin Presentation Layer.pdb
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\Arena Whistle Buisness layer.dll
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\Arena Whistle Data Access Layer.dll
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\Arena Whistle Buisness layer.pdb
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\Arena Whistle Data Access Layer.pdb
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena Whistle Admin Presentation Layer.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena Whistle Admin Presentation Layer.exe.config
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms_and_UserControls.Stadium.Form_ShowMatches.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Properties.Resources.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena Whistle Admin Presentation Layer.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena Whistle Admin Presentation Layer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena W.B72DB4C2.Up2Date
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena Whistle Admin Presentation Layer.exe
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena Whistle Admin Presentation Layer.pdb
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\ShowAllStadiums_ControlLibrary.dll
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\ShowAllStadiums_ControlLibrary.pdb
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms_and_UserControls.Clients.ShowClientCardForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms_and_UserControls.Employees.SetEmployeeStatusForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms_and_UserControls.Employees.UpdateEmployeeSalary.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms_and_UserControls.Matches.ShowCurrentMatchesTableForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms_and_UserControls.Matches.ShowCurrentMatchTimeLeft.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Main_Menu.MainMenuForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms_and_UserControls.LoginForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Employees.ManagePermessionsForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Employees.ShowAllEmployeesForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.AvailableStadiumsForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.BookedStadiumsTableForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.ReservedStadiumsTableForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.ShowAllStadiumsForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Clients.AllClientAsTableForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Clients.FindClientForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Clients.SaveClientForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Clients.UC_findPerson.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms_and_UserControls.Employees.UC_ShowEmployeeCard.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Employees.EmployeeCardForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Employees.SaveEmployeesInfosForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.User_Controls.UC_SaveStadium.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.FindStadiumForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.SaveStadiumForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.User_Controls.UC_FindStadium.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.BookingStadiumForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.ReserveStadiumForm.resources
+C:\Users\Admin\source\repos\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Employees.SaveEmployeeStep2Form.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\Arrena Whistle Admin Presentation Layer.exe.config
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\Arrena Whistle Admin Presentation Layer.exe
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\Arrena Whistle Admin Presentation Layer.pdb
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\Arena Whistle Buisness layer.dll
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\ShowAllStadiums_ControlLibrary.dll
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\Arena Whistle Data Access Layer.dll
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\Arena Whistle Buisness layer.pdb
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\ShowAllStadiums_ControlLibrary.pdb
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\Arena Whistle Data Access Layer.pdb
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\bin\Debug\Arena Whistle Data Access Layer.dll.config
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena Whistle Admin Presentation Layer.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Clients.FindClientForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms_and_UserControls.Clients.ShowClientCardForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Clients.UC_findPerson.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Employees.EmployeeCardForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms_and_UserControls.Employees.SetEmployeeStatusForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Employees.ShowAllEmployeesForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms_and_UserControls.Employees.UC_ShowEmployeeCard.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms_and_UserControls.LoginForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Main_Menu.MainMenuForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.BookingStadiumForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.FindStadiumForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms_and_UserControls.Matches.ShowCurrentMatchesTableForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms_and_UserControls.Matches.ShowCurrentMatchTimeLeft.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.ReserveStadiumForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.SaveStadiumForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.AvailableStadiumsForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.BookedStadiumsTableForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms_and_UserControls.Stadium.Form_ShowMatches.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.ReservedStadiumsTableForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.ShowAllStadiumsForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.User_Controls.UC_FindStadium.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.User_Controls.UC_SaveStadium.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Properties.Resources.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena Whistle Admin Presentation Layer.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena Whistle Admin Presentation Layer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena W.B72DB4C2.Up2Date
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena Whistle Admin Presentation Layer.exe
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena Whistle Admin Presentation Layer.pdb
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena Whistle Admin Presentation Layer.exe.config
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.ShowFullStadiumDataForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Employees.Uc_SaveEmployee.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Employees.User_Controls.ShowFullPersonDataForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Employees.User.UpdateUserNameAndPasswordForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Users.SaveUserPermessionForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Person.Employees.User.UC_SaveUserPermissions.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Users.AddUserNameAndPasswordForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Person.Employees.User.FindUserForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Person.Employees.User.UC_FindUser.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Person.Employees.User.UpdateUserChoicesForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Clients.SaveClientForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Person.Clients.UpdateClientChoicesForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Person.Clients.User_Controls.UpdateClientCredentialsForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.ShowStadiumsAsTableForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Person.Employees.User.ShowAllUsersForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.Booking.ShowBookingOverViewForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium.Booking.ShowFullBookingDataForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Person.Clients.ChangeActiveStatusForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Clients.ClientAsTableForm.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Employees.SaveEmployeeStep2Form.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Employees.User_Controls.SaveUserStep1Form.resources
+C:\Users\Admin\source\repos\Arena Whistle Project\Arrena Whistle Presentation Layer (AdminApp)\obj\Debug\Arrena_Whistle_Admin_Presentation_Layer.Forms.Person.Employees.SaveEmployeeStep1Form.resources

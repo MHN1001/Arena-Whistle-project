@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E83E581D-7C4E-472E-82F8-A443908F8F01}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Arrena_Whistle_Admin_Presentation_Layer</RootNamespace>
+    <AssemblyName>Arrena Whistle Admin Presentation Layer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Arena Whistle Buisness layer">
+      <HintPath>..\BL &amp; DAL\Arena Whistle Buisness layer\bin\Debug\Arena Whistle Buisness layer.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="ShowAllStadiums_ControlLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ArenaWhistle_ControlLibrary\bin\Debug\ShowAllStadiums_ControlLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\Person\Clients\ChangeActiveStatusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Clients\ChangeActiveStatusForm.Designer.cs">
+      <DependentUpon>ChangeActiveStatusForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Clients\ClientAsTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Clients\ClientAsTableForm.Designer.cs">
+      <DependentUpon>ClientAsTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Clients\FindClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Clients\FindClientForm.Designer.cs">
+      <DependentUpon>FindClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Clients\SaveClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Clients\SaveClientForm.Designer.cs">
+      <DependentUpon>SaveClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Clients\ShowClientCardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Clients\ShowClientCardForm.Designer.cs">
+      <DependentUpon>ShowClientCardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Clients\UpdateClientChoicesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Clients\UpdateClientChoicesForm.Designer.cs">
+      <DependentUpon>UpdateClientChoicesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Clients\UpdateClientCredentialsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Clients\UpdateClientCredentialsForm.Designer.cs">
+      <DependentUpon>UpdateClientCredentialsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\SaveEmployeeStep1Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\SaveEmployeeStep1Form.Designer.cs">
+      <DependentUpon>SaveEmployeeStep1Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User Controls\UC_FindUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User Controls\UC_FindUser.Designer.cs">
+      <DependentUpon>UC_FindUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User\ShowAllUsersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User\ShowAllUsersForm.Designer.cs">
+      <DependentUpon>ShowAllUsersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User\UpdateUserChoicesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User\UpdateUserChoicesForm.Designer.cs">
+      <DependentUpon>UpdateUserChoicesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User Controls\UC_findPerson.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User Controls\UC_findPerson.Designer.cs">
+      <DependentUpon>UC_findPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\EmployeeCardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\EmployeeCardForm.Designer.cs">
+      <DependentUpon>EmployeeCardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User Controls\UC_SaveUserPermissions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User Controls\UC_SaveUserPermissions.Designer.cs">
+      <DependentUpon>UC_SaveUserPermissions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User\FindUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User\FindUserForm.Designer.cs">
+      <DependentUpon>FindUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\ShowFullPersonDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\ShowFullPersonDataForm.Designer.cs">
+      <DependentUpon>ShowFullPersonDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User Controls\Uc_SaveEmployee.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User Controls\Uc_SaveEmployee.Designer.cs">
+      <DependentUpon>Uc_SaveEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\SaveEmployeeStep2Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\SaveEmployeeStep2Form.Designer.cs">
+      <DependentUpon>SaveEmployeeStep2Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\SetEmployeeStatusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\SetEmployeeStatusForm.Designer.cs">
+      <DependentUpon>SetEmployeeStatusForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\ShowAllEmployeesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\ShowAllEmployeesForm.Designer.cs">
+      <DependentUpon>ShowAllEmployeesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User\SaveUserStep1Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User\SaveUserStep1Form.Designer.cs">
+      <DependentUpon>SaveUserStep1Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User Controls\UC_ShowEmployeeCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User Controls\UC_ShowEmployeeCard.Designer.cs">
+      <DependentUpon>UC_ShowEmployeeCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User\UpdateUserNameAndPasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User\UpdateUserNameAndPasswordForm.Designer.cs">
+      <DependentUpon>UpdateUserNameAndPasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main Menu\MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main Menu\MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Stadium\Booking\ShowBookingOverViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Stadium\Booking\ShowBookingOverViewForm.Designer.cs">
+      <DependentUpon>ShowBookingOverViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Stadium\Booking\ShowFullBookingDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Stadium\Booking\ShowFullBookingDataForm.Designer.cs">
+      <DependentUpon>ShowFullBookingDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Stadium\Matches\ShowCurrentMatchesTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Stadium\Matches\ShowCurrentMatchesTableForm.Designer.cs">
+      <DependentUpon>ShowCurrentMatchesTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Stadium\Matches\ShowCurrentMatchTimeLeft.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Stadium\Matches\ShowCurrentMatchTimeLeft.Designer.cs">
+      <DependentUpon>ShowCurrentMatchTimeLeft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Stadium\SaveStadiumForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Stadium\SaveStadiumForm.Designer.cs">
+      <DependentUpon>SaveStadiumForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Stadium\AvailableStadiumsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Stadium\AvailableStadiumsForm.Designer.cs">
+      <DependentUpon>AvailableStadiumsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Stadium\Booking\BookedStadiumsTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Stadium\Booking\BookedStadiumsTableForm.Designer.cs">
+      <DependentUpon>BookedStadiumsTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Stadium\Booking\BookingStadiumForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Stadium\Booking\BookingStadiumForm.Designer.cs">
+      <DependentUpon>BookingStadiumForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Stadium\FindStadiumForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Stadium\FindStadiumForm.Designer.cs">
+      <DependentUpon>FindStadiumForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Stadium\Matches\Form_ShowMatches.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Stadium\Matches\Form_ShowMatches.Designer.cs">
+      <DependentUpon>Form_ShowMatches.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Stadium\Reservations\ReservedStadiumsTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Stadium\Reservations\ReservedStadiumsTableForm.Designer.cs">
+      <DependentUpon>ReservedStadiumsTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Stadium\Reservations\ReserveStadiumForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Stadium\Reservations\ReserveStadiumForm.Designer.cs">
+      <DependentUpon>ReserveStadiumForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Stadium\ShowAllStadiumsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Stadium\ShowAllStadiumsForm.Designer.cs">
+      <DependentUpon>ShowAllStadiumsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Stadium\ShowFullStadiumDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Stadium\ShowFullStadiumDataForm.Designer.cs">
+      <DependentUpon>ShowFullStadiumDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Stadium\ShowStadiumsAsTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Stadium\ShowStadiumsAsTableForm.Designer.cs">
+      <DependentUpon>ShowStadiumsAsTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Stadium\User Controls\UC_FindStadium.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Stadium\User Controls\UC_FindStadium.Designer.cs">
+      <DependentUpon>UC_FindStadium.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Stadium\User Controls\UC_SaveStadium.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Stadium\User Controls\UC_SaveStadium.Designer.cs">
+      <DependentUpon>UC_SaveStadium.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User\SaveUserPermessionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User\SaveUserPermessionForm.Designer.cs">
+      <DependentUpon>SaveUserPermessionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User\AddUserNameAndPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Person\Employees\User\AddUserNameAndPassword.Designer.cs">
+      <DependentUpon>AddUserNameAndPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global\ClsGlobal.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Person\Clients\ChangeActiveStatusForm.resx">
+      <DependentUpon>ChangeActiveStatusForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Clients\ClientAsTableForm.resx">
+      <DependentUpon>ClientAsTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Clients\FindClientForm.resx">
+      <DependentUpon>FindClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Clients\SaveClientForm.resx">
+      <DependentUpon>SaveClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Clients\ShowClientCardForm.resx">
+      <DependentUpon>ShowClientCardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Clients\UpdateClientChoicesForm.resx">
+      <DependentUpon>UpdateClientChoicesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Clients\UpdateClientCredentialsForm.resx">
+      <DependentUpon>UpdateClientCredentialsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Employees\SaveEmployeeStep1Form.resx">
+      <DependentUpon>SaveEmployeeStep1Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Employees\User Controls\UC_FindUser.resx">
+      <DependentUpon>UC_FindUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Employees\User\ShowAllUsersForm.resx">
+      <DependentUpon>ShowAllUsersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Employees\User\UpdateUserChoicesForm.resx">
+      <DependentUpon>UpdateUserChoicesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Employees\User Controls\UC_findPerson.resx">
+      <DependentUpon>UC_findPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Employees\EmployeeCardForm.resx">
+      <DependentUpon>EmployeeCardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Employees\User Controls\UC_SaveUserPermissions.resx">
+      <DependentUpon>UC_SaveUserPermissions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Employees\User\FindUserForm.resx">
+      <DependentUpon>FindUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\ShowFullPersonDataForm.resx">
+      <DependentUpon>ShowFullPersonDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Employees\User Controls\Uc_SaveEmployee.resx">
+      <DependentUpon>Uc_SaveEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Employees\SaveEmployeeStep2Form.resx">
+      <DependentUpon>SaveEmployeeStep2Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Employees\SetEmployeeStatusForm.resx">
+      <DependentUpon>SetEmployeeStatusForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Employees\ShowAllEmployeesForm.resx">
+      <DependentUpon>ShowAllEmployeesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Employees\User\SaveUserStep1Form.resx">
+      <DependentUpon>SaveUserStep1Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Employees\User Controls\UC_ShowEmployeeCard.resx">
+      <DependentUpon>UC_ShowEmployeeCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Employees\User\UpdateUserNameAndPasswordForm.resx">
+      <DependentUpon>UpdateUserNameAndPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main Menu\MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Stadium\Booking\BookingStadiumForm.resx">
+      <DependentUpon>BookingStadiumForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Stadium\Booking\ShowBookingOverViewForm.resx">
+      <DependentUpon>ShowBookingOverViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Stadium\Booking\ShowFullBookingDataForm.resx">
+      <DependentUpon>ShowFullBookingDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Stadium\FindStadiumForm.resx">
+      <DependentUpon>FindStadiumForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Stadium\Matches\ShowCurrentMatchesTableForm.resx">
+      <DependentUpon>ShowCurrentMatchesTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Stadium\Matches\ShowCurrentMatchTimeLeft.resx">
+      <DependentUpon>ShowCurrentMatchTimeLeft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Stadium\Reservations\ReserveStadiumForm.resx">
+      <DependentUpon>ReserveStadiumForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Stadium\SaveStadiumForm.resx">
+      <DependentUpon>SaveStadiumForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Stadium\AvailableStadiumsForm.resx">
+      <DependentUpon>AvailableStadiumsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Stadium\Booking\BookedStadiumsTableForm.resx">
+      <DependentUpon>BookedStadiumsTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Stadium\Matches\Form_ShowMatches.resx">
+      <DependentUpon>Form_ShowMatches.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Stadium\Reservations\ReservedStadiumsTableForm.resx">
+      <DependentUpon>ReservedStadiumsTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Stadium\ShowAllStadiumsForm.resx">
+      <DependentUpon>ShowAllStadiumsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Stadium\ShowFullStadiumDataForm.resx">
+      <DependentUpon>ShowFullStadiumDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Stadium\ShowStadiumsAsTableForm.resx">
+      <DependentUpon>ShowStadiumsAsTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Stadium\User Controls\UC_FindStadium.resx">
+      <DependentUpon>UC_FindStadium.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Stadium\User Controls\UC_SaveStadium.resx">
+      <DependentUpon>UC_SaveStadium.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Employees\User\SaveUserPermessionForm.resx">
+      <DependentUpon>SaveUserPermessionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Person\Employees\User\AddUserNameAndPassword.resx">
+      <DependentUpon>AddUserNameAndPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-stadium-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-forward-button-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Back-button-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-login-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Question.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-card-payment-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-booking-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-reservation-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-whistle-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-employee-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-client-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-department-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-date11-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-salary-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-status-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-next-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-back-to-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\No image available.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Forms\Person\Clients\User Controls\" />
+    <Folder Include="Forms\Person\Employees\Referees\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Main menu Picture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Main menu Picture 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Main Menu Picture 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-stadium-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-client-1001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-stadium-100 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-employee-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-admin-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-employee-94.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-client-100 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-grid-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-show-property-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-find-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-show-password-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-item-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-update-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-setting-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-process-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Final logo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,116 @@
+﻿namespace Arrena_Whistle_Admin_Presentation_Layer.Forms.Employees.User_Controls
+{
+    partial class SaveUserStep1Form
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if(disposing && ( components != null ))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.btnContinue = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCloseForm = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.uC_SavePerson1 = new ShowAllStadiums_ControlLibrary.Person.UC_SavePerson();
+            this.SuspendLayout();
+            // 
+            // btnContinue
+            // 
+            this.btnContinue.Animated = true;
+            this.btnContinue.AutoRoundedCorners = true;
+            this.btnContinue.BackColor = System.Drawing.Color.Transparent;
+            this.btnContinue.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnContinue.BorderColor = System.Drawing.Color.Cyan;
+            this.btnContinue.BorderThickness = 2;
+            this.btnContinue.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
+            this.btnContinue.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnContinue.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnContinue.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnContinue.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnContinue.Enabled = false;
+            this.btnContinue.FillColor = System.Drawing.Color.DarkSlateGray;
+            this.btnContinue.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnContinue.ForeColor = System.Drawing.Color.Aqua;
+            this.btnContinue.Image = global::Arrena_Whistle_Admin_Presentation_Layer.Properties.Resources.arrow_right;
+            this.btnContinue.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnContinue.IndicateFocus = true;
+            this.btnContinue.Location = new System.Drawing.Point(667, 588);
+            this.btnContinue.Name = "btnContinue";
+            this.btnContinue.Size = new System.Drawing.Size(211, 36);
+            this.btnContinue.TabIndex = 370;
+            this.btnContinue.Text = "Continue";
+            this.btnContinue.UseTransparentBackground = true;
+            this.btnContinue.Click += new System.EventHandler(this.btnContinue_Click);
+            // 
+            // btnCloseForm
+            // 
+            this.btnCloseForm.BackColor = System.Drawing.Color.Transparent;
+            this.btnCloseForm.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.btnCloseForm.HoverState.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnCloseForm.Image = global::Arrena_Whistle_Admin_Presentation_Layer.Properties.Resources.icons8_login_40;
+            this.btnCloseForm.ImageOffset = new System.Drawing.Point(0, 0);
+            this.btnCloseForm.ImageRotate = 0F;
+            this.btnCloseForm.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnCloseForm.Location = new System.Drawing.Point(910, 4);
+            this.btnCloseForm.Name = "btnCloseForm";
+            this.btnCloseForm.PressedState.ImageSize = new System.Drawing.Size(25, 25);
+            this.btnCloseForm.Size = new System.Drawing.Size(31, 31);
+            this.btnCloseForm.TabIndex = 368;
+            this.btnCloseForm.Click += new System.EventHandler(this.btnCloseForm_Click);
+            // 
+            // uC_SavePerson1
+            // 
+            this.uC_SavePerson1.AutoScroll = true;
+            this.uC_SavePerson1.BackColor = System.Drawing.Color.LightCyan;
+            this.uC_SavePerson1.Location = new System.Drawing.Point(2, 1);
+            this.uC_SavePerson1.Name = "uC_SavePerson1";
+            this.uC_SavePerson1.SaveMode = Arena_Whistle_Buisness_layerm.ClsPerson.SaveMode.Add;
+            this.uC_SavePerson1.Size = new System.Drawing.Size(946, 587);
+            this.uC_SavePerson1.TabIndex = 369;
+            this.uC_SavePerson1.OnUpdatedSuccessfully += new System.Action<Arena_Whistle_Buisness_layerm.ClsPerson>(this.uC_SavePerson1_OnUpdatedSuccessfully);
+            this.uC_SavePerson1.OnPersonObjectPropertiesSavedSuccessfully += new System.Action<Arena_Whistle_Buisness_layerm.ClsPerson>(this.uC_SavePerson1_OnPersonObjectPropertiesSavedSuccessfully_1);
+            // 
+            // SaveUserStep1Form
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightCyan;
+            this.ClientSize = new System.Drawing.Size(946, 626);
+            this.Controls.Add(this.btnContinue);
+            this.Controls.Add(this.btnCloseForm);
+            this.Controls.Add(this.uC_SavePerson1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "SaveEmployeeForm1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "SaveEmployeeForm1";
+            this.Load += new System.EventHandler(this.SaveEmployeeForm1_Load);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private Guna.UI2.WinForms.Guna2ImageButton btnCloseForm;
+        private ShowAllStadiums_ControlLibrary.Person.UC_SavePerson uC_SavePerson1;
+        private Guna.UI2.WinForms.Guna2Button btnContinue;
+    }
+}

@@ -1,0 +1,26 @@
+﻿# Visual Studio temporary files
+.vs/
+
+# Build output folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.DotSettings.user
+
+# VS Code settings (if used)
+.vscode/
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
+
+# ReSharper files (if used)
+_ReSharper*/

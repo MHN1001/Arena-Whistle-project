@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arena Whistle Buisness layer", "Arena Whistle Buisness layer.csproj", "{FE73B7D1-CEF2-4345-B34A-8166C595BDA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arena Whistle Data Access Layer", "..\Arena Whistle Data Access Layer\Arena Whistle Data Access Layer.csproj", "{991661A3-F0BE-47E9-8EB8-536A50BBB68D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE73B7D1-CEF2-4345-B34A-8166C595BDA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE73B7D1-CEF2-4345-B34A-8166C595BDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE73B7D1-CEF2-4345-B34A-8166C595BDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE73B7D1-CEF2-4345-B34A-8166C595BDA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{991661A3-F0BE-47E9-8EB8-536A50BBB68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{991661A3-F0BE-47E9-8EB8-536A50BBB68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{991661A3-F0BE-47E9-8EB8-536A50BBB68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{991661A3-F0BE-47E9-8EB8-536A50BBB68D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3F544D8-108D-4965-A25F-E52FC35DC06A}
+	EndGlobalSection
+EndGlobal
