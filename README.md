@@ -147,45 +147,60 @@ The application includes protections for common real-world errors:
 
 ---
 
-###⚙️ Getting Started – Clone, Configure & Run
+# ⚙️ Getting Started – Clone, Configure & Run
 
-Follow these steps to set up Arena Whistle on your local machine:
+Follow these steps to set up **Arena Whistle** on your local machine:
 
-1. Clone the Repository
+---
+
+## 1. Clone the Repository
+
+```bash
 git clone https://github.com/your-username/arena-whistle.git
 cd arena-whistle
-2. Restore the Database
+```
 
-Open SQL Server Management Studio (SSMS).
+---
 
-Connect to your local SQL Server instance.
+## 2. Restore the Database
 
-Right-click on Databases → Restore Database.
+1. Open **SQL Server Management Studio (SSMS)**.
+2. Connect to your local SQL Server instance.
+3. Right-click on **Databases** → **Restore Database**.
+4. Choose **Device** → browse and select `Arena Whistle.bak` from the project folder.
+5. Click **OK** to restore the database.
 
-Choose Device → browse and select Arena Whistle.bak from the project folder.
+---
 
-Click OK to restore the database.
+## 3. Update the Connection String
 
-3. Update the Connection String
-
-The application uses ADO.NET to connect to SQL Server.
+The application uses **ADO.NET** to connect to SQL Server.
 Update the connection string in the configuration file (or directly in the DAL) as follows:
 
+```csharp
 string connectionString = "Server=.;Database=Arena Whistle;User ID=sa;Password=123456";
+```
 
-⚠️ Ensure your SQL Server sa account is enabled and the password matches.
+> ⚠️ Ensure your SQL Server `sa` account is enabled and the password matches.
 
-4. Open the Project
+---
 
-Open Arena Whistle.sln in Visual Studio (2019 or later recommended).
+## 4. Open the Project
 
-Build the solution (Ctrl + Shift + B) to restore dependencies and compile.
+* Open **Arena Whistle.sln** in **Visual Studio** (2019 or later recommended).
+* Build the solution (`Ctrl + Shift + B`) to restore dependencies and compile.
 
-5. Run the Application
+---
 
-Press F5 or click Start to launch the application.
+## 5. Run the Application
 
-Log in using default credentials (if provided) or add users in the database.
+* Press `F5` or click **Start** to launch the application.
+* Log in using default credentials (if provided) or add users in the database.
+
+---
+
+This completes the setup and you should now have **Arena Whistle** running locally.
+
 
 ---
 
