@@ -150,7 +150,6 @@ The application includes protections for common real-world errors:
 ### 👨‍💻 Author
 
 **Developed by:** El Mehdi Mhaoune
-**Supervisor:** Dr. Mohammed Abu-Hadhoud
 
 ---
 
