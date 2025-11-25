@@ -1,37 +1,186 @@
-Here is your 100% working, copy-paste ready README.md with all images guaranteed to show instantly on GitHub.
-Just replace your current README.md with this exact content:
-Markdown# Arena Whistle – Stadium Booking Management System
+# 🏟️ Arena Whistle – Stadium Booking Management System
 
-A complete, professional **Stadium Booking & Management System** built with **C# WinForms + Guna UI2 + SQL Server + ADO.NET**.
+A full-featured **Stadium Booking Management System** built with **C# WinForms**, **Guna UI2**, **ADO.NET**, and **SQL Server Stored Procedures**.
+This project demonstrates real-world software engineering practices: clean multi-layer architecture, secure database design, role-based permissions, custom controls, and advanced T-SQL programming.
 
-Modern UI • Real-time booking • Role-based permissions • Full admin panel • Payment system
+![Login Screen](screenshots/login.png)
 
-## Screenshots
+---
 
-| Login Screen                               | Welcome Dashboard                               |
-|--------------------------------------------|-------------------------------------------------|
-| <img src="https://raw.githubusercontent.com/MHN1001/Arena-Whistle-project/main/screenshots/login.png" width="450"/> | <img src="https://raw.githubusercontent.com/MHN1001/Arena-Whistle-project/main/screenshots/welcome_mhn.png" width="450"/> |
+### 📌 Project Overview
 
-| Stadiums Zone                              | All Stadiums View                               |
-|--------------------------------------------|-------------------------------------------------|
-| <img src="https://raw.githubusercontent.com/MHN1001/Arena-Whistle-project/main/screenshots/stadiums_zone.png" width="450"/> | <img src="https://raw.githubusercontent.com/MHN1001/Arena-Whistle-project/main/screenshots/all_stadiums.png" width="450"/> |
+**Arena Whistle** is a desktop application that manages:
 
-| Add / Edit Stadium                         | Booked Stadiums List                            |
-|--------------------------------------------|-------------------------------------------------|
-| <img src="https://raw.githubusercontent.com/MHN1001/Arena-Whistle-project/main/screenshots/add_stadium.png" width="450"/> | <img src="https://raw.githubusercontent.com/MHN1001/Arena-Whistle-project/main/screenshots/booked_stadiums.png" width="450"/> |
+* Stadiums & multiple stadium images
+* Bookings, schedules, availability & overlap prevention
+* Users, roles, authentication & permissions
+* Employees, referees & departments
+* Payments, pricing, fines & card processing
+* Client & administrative workflows
 
-| Current Match Overview                     | User Profile                                    |
-|--------------------------------------------|-------------------------------------------------|
-| <img src="https://raw.githubusercontent.com/MHN1001/Arena-Whistle-project/main/screenshots/current_match.png" width="450"/> | <img src="https://raw.githubusercontent.com/MHN1001/Arena-Whistle-project/main/screenshots/user_profile.png" width="450"/> |
+The focus is on **practical application** of OOP, design patterns, data structures, custom controls, and advanced database concepts.
 
-| Update Personal Info                       | Change Password                                 |
-|--------------------------------------------|-------------------------------------------------|
-| <img src="https://raw.githubusercontent.com/MHN1001/Arena-Whistle-project/main/screenshots/update_personal_info.png" width="450"/> | <img src="https://raw.githubusercontent.com/MHN1001/Arena-Whistle-project/main/screenshots/update_password.png" width="450"/> |
+---
 
-| Admin – User Update Center                 | Client Update Center                            |
-|--------------------------------------------|-------------------------------------------------|
-| <img src="https://raw.githubusercontent.com/MHN1001/Arena-Whistle-project/main/screenshots/user_update_center.png" width="450"/> | <img src="https://raw.githubusercontent.com/MHN1001/Arena-Whistle-project/main/screenshots/client_update_center.png" width="450"/> |
+### 🎯 Key Features
 
-| Change Active Status                       | Manage Permissions                              |
-|--------------------------------------------|-------------------------------------------------|
-| <img src="https://raw.githubusercontent.com/MHN1001/Arena-Whistle-project/main/screenshots/
+#### 🏟 Stadium Management
+
+* Add / Edit / Delete stadiums
+* Upload & manage multiple images per stadium
+* Filter by sport type, floor type, availability
+* Safe image slideshow with fallback handling
+
+![All Stadiums View](screenshots/all_stadiums.png)
+![Stadium Add Mode](screenshots/add_stadium.png)
+
+#### 📅 Booking & Reservation System
+
+* Real-time availability checking
+* Prevent overlapping bookings
+* Match & referee assignment
+* Reservation status tracking (Pending / Confirmed / Canceled)
+
+![Booked Stadiums](screenshots/booked_stadiums.png)
+![Current Match Overview](screenshots/current_match.png)
+
+#### 💳 Payment System
+
+* Default & dynamic pricing
+* Multiple payment methods & card types
+* Fine calculation & tracking
+
+#### 👥 User & Admin Management
+
+* Secure login with role-based access
+* Admin dashboard with full control
+* User activation/deactivation
+* Operation logging & login history
+
+![Admin User Update Center](screenshots/user_update_center.png)
+![Change User Status](screenshots/change_status.png)
+
+#### 🔐 Security & Permissions
+
+* Granular permission system
+* Operation logging
+* Secure password updates
+
+![Update Password](screenshots/update_password.png)
+
+---
+
+### 🧱 Architecture (Clean Multi-Layer Design)
+
+```
+/Arena Whistle
+│
+├── Presentation Layer       → WinForms + Guna UI2 + Custom Controls
+├── Business Logic Layer     → Managers, Validation, Business Rules
+├── Data Access Layer        → ADO.NET + Stored Procedure Calls
+└── Database (SQL Server)    → 25+ Tables, Procedures, Triggers, Functions
+```
+
+---
+
+### 🧠 Skills & Technologies Applied
+
+#### C# / .NET
+
+* Events & Delegates
+* Generics & Nullable Types
+* Custom Controls
+* Cryptography basics
+* Windows Registry
+* ADO.NET with Stored Procedures
+
+#### SQL Server / T-SQL
+
+* Variables, IF/CASE, TRY/CATCH
+* Transactions & Error Handling
+* Scalar & Table-Valued Functions
+* Window Functions
+* INSTEAD OF Triggers
+* Complex Joins & Business Logic in DB
+
+---
+
+### 🎨 Modern UI with Guna UI2
+
+Clean, animated, professional interface:
+
+![Welcome Dashboard](screenshots/welcome_mhn.png)
+![Stadiums Zone](screenshots/stadiums_zone.png)
+![User Profile](screenshots/user_profile.png)
+![Update Personal Info](screenshots/update_personal_info.png)
+
+---
+
+### 🗃 Database Structure (25+ Tables)
+
+Key tables include:
+
+* `Stadiums`, `StadiumsImages`
+* `Bookings`, `StadiumReservations`
+* `Payments`, `BookingFines`
+* `Users`, `Permissions`, `UsersOperations`
+* `Employees`, `Referees`, `Departments`
+
+**Backup included**: `Arena Whistle.bak`
+
+---
+
+### 🧪 Robust Error Handling & Debugging
+
+Handles real-world issues:
+
+* IndexOutOfRange (image lists)
+* Null references
+* Missing columns in DataTables
+* SQL constraints & transactions
+* Input validation & user feedback
+
+---
+
+### 🚀 Technology Stack
+
+| Category     | Technology                     |
+| ------------ | ------------------------------ |
+| Framework    | .NET Framework 4.7.2           |
+| Language     | C#                             |
+| UI           | WinForms + **Guna UI2**        |
+| Database     | SQL Server                     |
+| Data Access  | ADO.NET + Stored Procedures    |
+| Architecture | Multi-layered (DAL → BLL → PL) |
+
+---
+
+### 🗺 Future Enhancements
+
+* [ ] Migrate to **.NET 8 WinForms**
+* [ ] Build REST API backend
+* [ ] Real-time notifications (SignalR)
+* [ ] PDF/Excel reporting
+* [ ] Full data encryption
+* [ ] Web version (Blazor / ASP.NET Core)
+
+---
+
+### 👨‍💻 Author
+
+**Developed by:** El Mehdi Mhaoune
+
+---
+
+### 📝 License
+
+This project is for **educational and demonstration purposes**.
+
+---
+
+**Thank you for checking out Arena Whistle!**
+A complete, production-ready example of professional desktop application development in C# and SQL Server.
+
+🏆 **Ready to manage stadiums like a pro!**
+
+---
