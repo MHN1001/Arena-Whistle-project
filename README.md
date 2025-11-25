@@ -147,6 +147,48 @@ The application includes protections for common real-world errors:
 
 ---
 
+###⚙️ Getting Started – Clone, Configure & Run
+
+Follow these steps to set up Arena Whistle on your local machine:
+
+1. Clone the Repository
+git clone https://github.com/your-username/arena-whistle.git
+cd arena-whistle
+2. Restore the Database
+
+Open SQL Server Management Studio (SSMS).
+
+Connect to your local SQL Server instance.
+
+Right-click on Databases → Restore Database.
+
+Choose Device → browse and select Arena Whistle.bak from the project folder.
+
+Click OK to restore the database.
+
+3. Update the Connection String
+
+The application uses ADO.NET to connect to SQL Server.
+Update the connection string in the configuration file (or directly in the DAL) as follows:
+
+string connectionString = "Server=.;Database=Arena Whistle;User ID=sa;Password=123456";
+
+⚠️ Ensure your SQL Server sa account is enabled and the password matches.
+
+4. Open the Project
+
+Open Arena Whistle.sln in Visual Studio (2019 or later recommended).
+
+Build the solution (Ctrl + Shift + B) to restore dependencies and compile.
+
+5. Run the Application
+
+Press F5 or click Start to launch the application.
+
+Log in using default credentials (if provided) or add users in the database.
+
+---
+
 ### 👨‍💻 Author
 
 **Developed by:** El Mehdi Mhaoune
