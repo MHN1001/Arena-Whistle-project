@@ -1,24 +1,22 @@
 # 🏟️ Arena Whistle – Stadium Booking Management System
 
 A full-featured **Stadium Booking Management System** built with **C# WinForms**, **Guna UI2**, **ADO.NET**, and **SQL Server Stored Procedures**.
-This project demonstrates real-world software engineering practices: clean multi-layer architecture, secure database design, role-based permissions, custom controls, and advanced T-SQL programming.
-
-![Login Screen](screenshots/login.png)
+This project demonstrates real-world software engineering practices including clean multi-layer architecture, secure database design, role-based permissions, custom controls, and advanced T-SQL programming.
 
 ---
 
 ### 📌 Project Overview
 
-**Arena Whistle** is a desktop application that manages:
+**Arena Whistle** is a desktop application designed to efficiently manage:
 
-* Stadiums & multiple stadium images
-* Bookings, schedules, availability & overlap prevention
-* Users, roles, authentication & permissions
-* Employees, referees & departments
-* Payments, pricing, fines & card processing
-* Client & administrative workflows
+* Stadiums and multiple stadium images
+* Bookings, schedules, availability checks, and overlapping prevention
+* Users, roles, authentication, and permissions
+* Employees, referees, and departments
+* Payments, pricing, fines, and card processing
+* Client and administrative workflows
 
-The focus is on **practical application** of OOP, design patterns, data structures, custom controls, and advanced database concepts.
+The application emphasizes **practical use** of OOP principles, design patterns, data structures, custom controls, and advanced database programming.
 
 ---
 
@@ -26,47 +24,36 @@ The focus is on **practical application** of OOP, design patterns, data structur
 
 #### 🏟 Stadium Management
 
-* Add / Edit / Delete stadiums
-* Upload & manage multiple images per stadium
-* Filter by sport type, floor type, availability
+* Add, edit, and delete stadiums
+* Upload and manage multiple images per stadium
+* Filter stadiums by sport type, floor type, and availability
 * Safe image slideshow with fallback handling
-
-![All Stadiums View](screenshots/all_stadiums.png)
-![Stadium Add Mode](screenshots/add_stadium.png)
 
 #### 📅 Booking & Reservation System
 
 * Real-time availability checking
 * Prevent overlapping bookings
-* Match & referee assignment
+* Match and referee assignment
 * Reservation status tracking (Pending / Confirmed / Canceled)
-
-![Booked Stadiums](screenshots/booked_stadiums.png)
-![Current Match Overview](screenshots/current_match.png)
 
 #### 💳 Payment System
 
-* Default & dynamic pricing
-* Multiple payment methods & card types
-* Fine calculation & tracking
+* Default and dynamic pricing
+* Support for multiple payment methods and card types
+* Fine calculation and tracking
 
 #### 👥 User & Admin Management
 
 * Secure login with role-based access
-* Admin dashboard with full control
+* Admin dashboard with complete control
 * User activation/deactivation
-* Operation logging & login history
-
-![Admin User Update Center](screenshots/user_update_center.png)
-![Change User Status](screenshots/change_status.png)
+* Operation logging and login history
 
 #### 🔐 Security & Permissions
 
 * Granular permission system
-* Operation logging
-* Secure password updates
-
-![Update Password](screenshots/update_password.png)
+* Operation logging for accountability
+* Secure password update procedures
 
 ---
 
@@ -81,44 +68,38 @@ The focus is on **practical application** of OOP, design patterns, data structur
 └── Database (SQL Server)    → 25+ Tables, Procedures, Triggers, Functions
 ```
 
+* **Presentation Layer (PL):** Handles user interface, custom controls, and animations.
+* **Business Logic Layer (BLL):** Implements validation, business rules, and application logic.
+* **Data Access Layer (DAL):** Manages database interactions via ADO.NET and stored procedures.
+* **Database Layer:** Includes tables, procedures, functions, triggers, and constraints for secure and reliable data storage.
+
 ---
 
 ### 🧠 Skills & Technologies Applied
 
 #### C# / .NET
 
-* Events & Delegates
-* Generics & Nullable Types
+* Events and Delegates
+* Generics and Nullable Types
 * Custom Controls
 * Cryptography basics
-* Windows Registry
+* Windows Registry operations
 * ADO.NET with Stored Procedures
 
 #### SQL Server / T-SQL
 
-* Variables, IF/CASE, TRY/CATCH
-* Transactions & Error Handling
-* Scalar & Table-Valued Functions
+* Variables, IF/CASE statements, TRY/CATCH blocks
+* Transactions and error handling
+* Scalar and Table-Valued Functions
 * Window Functions
 * INSTEAD OF Triggers
-* Complex Joins & Business Logic in DB
-
----
-
-### 🎨 Modern UI with Guna UI2
-
-Clean, animated, professional interface:
-
-![Welcome Dashboard](screenshots/welcome_mhn.png)
-![Stadiums Zone](screenshots/stadiums_zone.png)
-![User Profile](screenshots/user_profile.png)
-![Update Personal Info](screenshots/update_personal_info.png)
+* Complex joins and business logic implemented in the database
 
 ---
 
 ### 🗃 Database Structure (25+ Tables)
 
-Key tables include:
+**Key Tables:**
 
 * `Stadiums`, `StadiumsImages`
 * `Bookings`, `StadiumReservations`
@@ -126,19 +107,19 @@ Key tables include:
 * `Users`, `Permissions`, `UsersOperations`
 * `Employees`, `Referees`, `Departments`
 
-**Backup included**: `Arena Whistle.bak`
+**Database Backup Included:** `Arena Whistle.bak`
 
 ---
 
 ### 🧪 Robust Error Handling & Debugging
 
-Handles real-world issues:
+The application includes protections for common real-world errors:
 
-* IndexOutOfRange (image lists)
-* Null references
+* IndexOutOfRange exceptions (e.g., image lists)
+* Null reference exceptions
 * Missing columns in DataTables
-* SQL constraints & transactions
-* Input validation & user feedback
+* SQL constraint violations and transaction errors
+* Input validation and user feedback
 
 ---
 
@@ -148,7 +129,7 @@ Handles real-world issues:
 | ------------ | ------------------------------ |
 | Framework    | .NET Framework 4.7.2           |
 | Language     | C#                             |
-| UI           | WinForms + **Guna UI2**        |
+| UI           | WinForms + Guna UI2            |
 | Database     | SQL Server                     |
 | Data Access  | ADO.NET + Stored Procedures    |
 | Architecture | Multi-layered (DAL → BLL → PL) |
@@ -158,9 +139,9 @@ Handles real-world issues:
 ### 🗺 Future Enhancements
 
 * [ ] Migrate to **.NET 8 WinForms**
-* [ ] Build REST API backend
-* [ ] Real-time notifications (SignalR)
-* [ ] PDF/Excel reporting
+* [ ] Build a REST API backend
+* [ ] Real-time notifications using SignalR
+* [ ] PDF/Excel reporting module
 * [ ] Full data encryption
 * [ ] Web version (Blazor / ASP.NET Core)
 
@@ -169,18 +150,10 @@ Handles real-world issues:
 ### 👨‍💻 Author
 
 **Developed by:** El Mehdi Mhaoune
+**Supervisor:** Dr. Mohammed Abu-Hadhoud
 
 ---
 
 ### 📝 License
 
-This project is for **educational and demonstration purposes**.
-
----
-
-**Thank you for checking out Arena Whistle!**
-A complete, production-ready example of professional desktop application development in C# and SQL Server.
-
-🏆 **Ready to manage stadiums like a pro!**
-
----
+This project is for **educational and demonstration purposes** only.
