@@ -142,7 +142,7 @@ namespace ShowAllStadiums_ControlLibrary.Global__User_Controls
         {
             txtCurrentPass.Focus();
 
-            txtCurrentPass.Text = string.Empty;
+            //txtCurrentPass.Text = string.Empty;
             txtNewPass.Text = string.Empty;
             txtConfirmPass.Text = string.Empty;
 

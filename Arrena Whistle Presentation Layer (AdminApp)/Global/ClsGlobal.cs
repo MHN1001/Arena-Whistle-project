@@ -11,6 +11,8 @@ namespace Arrena_Whistle_Admin_Presentation_Layer.Global
     {
         public static ClsUser CurrentUser { get; set; }
 
+        public static string DestinationFile = "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arena Whistle Photos\\Client Images";
+
 
         public enum Permission : int
         {

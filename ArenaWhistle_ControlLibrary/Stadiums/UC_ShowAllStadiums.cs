@@ -185,10 +185,7 @@ namespace ShowAllStadiums_ControlLibrary.Stadiums
         }
         private void FilteringStadiumsDataView()
         {
-
-            _Stadiums.Stadiums.RowFilter = $"SportType = '{cbSportTypes.SelectedItem}'";
-
-            //resorting stadium by stadium id
+            _Stadiums.Stadiums.RowFilter = $"SportType = '{cbSportTypes.SelectedItem.ToString()}'";
             _Stadiums.Stadiums.Sort = "StadiumID";
 
             _StadiumIndex = 0;
@@ -263,6 +260,7 @@ namespace ShowAllStadiums_ControlLibrary.Stadiums
         private void IncreasStadiumIndexAfterCallTheNextStadium()
         {
             _StadiumIndex++;
+
             if(_StadiumIndex == _Stadiums.Stadiums.Count - 1)
             {
                 EnableNextButton(false);
@@ -287,7 +285,7 @@ namespace ShowAllStadiums_ControlLibrary.Stadiums
             {
                 EnableNextButton(false);
                 EnableBackButton(false);
-                uC_ShowStadiumCard1.ResetAllControls();
+                uC_ShowStadiumCard1.ResetAll();
                 ShowInformationMessage($"There is no {cbSportTypes.SelectedItem} stadiums To Show it !", "Not Available");
             }
 

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Arena_Whistle_Buisness_layer;
+using Arrena_Whistle_Admin_Presentation_Layer.Global;
 
 
 namespace Arrena_Whistle_Admin_Presentation_Layer.Forms.Clients
@@ -30,6 +31,7 @@ namespace Arrena_Whistle_Admin_Presentation_Layer.Forms.Clients
         private void SaveClientForm_Load(object sender, EventArgs e)
         {
             uC_SavePerson1.Start(client);
+            uC_SavePerson1.DestinationPath = ClsGlobal.DestinationFile;
         }
 
         private void uC_SavePerson1_OnUpdatedSuccessfully(Arena_Whistle_Buisness_layerm.ClsPerson obj)

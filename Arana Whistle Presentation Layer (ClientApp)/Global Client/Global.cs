@@ -13,7 +13,7 @@ public static class Global
 {
     public static ClsClient CurrentClient { get; set; }
 
-
+    public static string DestinationFile = "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arena Whistle Photos\\Client Images";
     
 
 }

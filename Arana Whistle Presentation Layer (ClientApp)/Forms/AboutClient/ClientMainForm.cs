@@ -22,7 +22,9 @@ namespace Arana_Whistle_Presentation_Layer.Forms.AboutClient
         {
             uC_showPersonCard1.LoadPersonDataByID(Global.CurrentClient.PersonID);
             uC_SavePerson1.Start(Global.CurrentClient);
-            uc_UpdatePassword1.PassClientID(Global.CurrentClient.ClientID, null);
+            uC_SavePerson1.DestinationPath = Global.DestinationFile;
+            uc_UpdatePassword1.PassClientID(Global.CurrentClient.ClientID,null);
+            uc_UpdatePassword1.PassUserName(Global.CurrentClient.UserName);
         }
 
 
@@ -78,6 +80,11 @@ namespace Arana_Whistle_Presentation_Layer.Forms.AboutClient
         {
             Global.CurrentClient.Password = obj;
             MessageBox.Show("Your Password Has been Updated Sucessfully !", "Sucessfull");
+
+        }
+
+        private void TpChangeLoginPassword_Click(object sender, EventArgs e)
+        {
 
         }
     }

@@ -26,7 +26,7 @@ namespace Arana_Whistle_Presentation_Layer.Forms.StadiumMenu
         {
             uC_BookingStadiumProcess1.BindDataToControls(this.Stadium);
 
-        }
+         }
         private void uC_BookingStadiumProcess1_Load(object sender, EventArgs e)
         {
 

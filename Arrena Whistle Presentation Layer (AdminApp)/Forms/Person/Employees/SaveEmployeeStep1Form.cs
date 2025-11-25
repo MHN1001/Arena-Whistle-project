@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Arena_Whistle_Buisness_layer;
 using Arrena_Whistle_Admin_Presentation_Layer.Forms.Employees;
+using Arrena_Whistle_Admin_Presentation_Layer.Global;
 
 namespace Arrena_Whistle_Admin_Presentation_Layer.Forms.Person.Employees
 {
@@ -45,7 +46,7 @@ namespace Arrena_Whistle_Admin_Presentation_Layer.Forms.Person.Employees
             PrepareContinueButton();
 
             uC_SavePerson1.Start(_employeeObj);
-            uC_SavePerson1.DestinationPath = "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arena Whistle Photos\\Employees Images";
+            uC_SavePerson1.DestinationPath = ClsGlobal.DestinationFile;
         }
 
 

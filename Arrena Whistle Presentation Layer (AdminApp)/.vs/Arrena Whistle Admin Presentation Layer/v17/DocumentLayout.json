@@ -3,14 +3,74 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|c:\\users\\admin\\source\\repos\\arena whistle project\\arrena whistle presentation layer (adminapp)\\forms\\stadium\\availablestadiumsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|solutionrelative:forms\\stadium\\availablestadiumsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|c:\\users\\admin\\source\\repos\\arena whistle project\\arrena whistle presentation layer (adminapp)\\forms\\stadium\\availablestadiumsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|solutionrelative:forms\\stadium\\availablestadiumsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|c:\\users\\admin\\source\\repos\\arena whistle project\\arrena whistle presentation layer (adminapp)\\global\\clsglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|solutionrelative:global\\clsglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\forms\\stadium\\user controls\\uc_savestadium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|solutionrelative:forms\\stadium\\user controls\\uc_savestadium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\forms\\stadium\\user controls\\uc_savestadium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|solutionrelative:forms\\stadium\\user controls\\uc_savestadium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\forms\\stadium\\savestadiumform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|solutionrelative:forms\\stadium\\savestadiumform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\forms\\stadium\\savestadiumform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|solutionrelative:forms\\stadium\\savestadiumform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\forms\\person\\clients\\saveclientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|solutionrelative:forms\\person\\clients\\saveclientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\forms\\person\\clients\\saveclientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|solutionrelative:forms\\person\\clients\\saveclientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\forms\\person\\employees\\saveemployeestep1form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|solutionrelative:forms\\person\\employees\\saveemployeestep1form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\forms\\person\\employees\\saveemployeestep1form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|solutionrelative:forms\\person\\employees\\saveemployeestep1form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\forms\\person\\employees\\user\\saveuserstep1form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|solutionrelative:forms\\person\\employees\\user\\saveuserstep1form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\forms\\person\\employees\\user\\saveuserstep1form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|solutionrelative:forms\\person\\employees\\user\\saveuserstep1form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\forms\\stadium\\showallstadiumsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|solutionrelative:forms\\stadium\\showallstadiumsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\forms\\stadium\\showallstadiumsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|solutionrelative:forms\\stadium\\showallstadiumsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\ArenaWhistle_ControlLibrary\\Stadiums\\UC_ShowStadiumCard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|c:\\users\\admin\\source\\repos\\arena whistle project\\arrena whistle presentation layer (adminapp)\\forms\\stadium\\booking\\bookingstadiumform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\forms\\stadium\\booking\\bookingstadiumform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|solutionrelative:forms\\stadium\\booking\\bookingstadiumform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|c:\\users\\admin\\source\\repos\\arena whistle project\\arrena whistle presentation layer (adminapp)\\forms\\stadium\\booking\\bookingstadiumform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\forms\\stadium\\booking\\bookingstadiumform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|solutionrelative:forms\\stadium\\booking\\bookingstadiumform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -18,7 +78,7 @@
       "RelativeMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|solutionrelative:forms\\main menu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|c:\\users\\admin\\source\\repos\\arena whistle project\\arrena whistle presentation layer (adminapp)\\forms\\main menu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\forms\\main menu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E83E581D-7C4E-472E-82F8-A443908F8F01}|Arrena Whistle Admin Presentation Layer.csproj|solutionrelative:forms\\main menu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -50,19 +110,194 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UC_ShowStadiumCard.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\ArenaWhistle_ControlLibrary\\Stadiums\\UC_ShowStadiumCard.cs",
-              "RelativeDocumentMoniker": "..\\ArenaWhistle_ControlLibrary\\Stadiums\\UC_ShowStadiumCard.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\ArenaWhistle_ControlLibrary\\Stadiums\\UC_ShowStadiumCard.cs",
-              "RelativeToolTip": "..\\ArenaWhistle_ControlLibrary\\Stadiums\\UC_ShowStadiumCard.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAwwGgAAAAAAAAAAAAAAA==",
+              "Title": "AvailableStadiumsForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Stadium\\AvailableStadiumsForm.cs",
+              "RelativeDocumentMoniker": "Forms\\Stadium\\AvailableStadiumsForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Stadium\\AvailableStadiumsForm.cs",
+              "RelativeToolTip": "Forms\\Stadium\\AvailableStadiumsForm.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAowDUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T23:12:08.9Z",
+              "WhenOpened": "2025-11-24T23:10:33.972Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AvailableStadiumsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Stadium\\AvailableStadiumsForm.cs",
+              "RelativeDocumentMoniker": "Forms\\Stadium\\AvailableStadiumsForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Stadium\\AvailableStadiumsForm.cs [Design]",
+              "RelativeToolTip": "Forms\\Stadium\\AvailableStadiumsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T23:10:25.849Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UC_SaveStadium.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Stadium\\User Controls\\UC_SaveStadium.cs",
+              "RelativeDocumentMoniker": "Forms\\Stadium\\User Controls\\UC_SaveStadium.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Stadium\\User Controls\\UC_SaveStadium.cs",
+              "RelativeToolTip": "Forms\\Stadium\\User Controls\\UC_SaveStadium.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswHYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:09:25.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UC_SaveStadium.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Stadium\\User Controls\\UC_SaveStadium.cs",
+              "RelativeDocumentMoniker": "Forms\\Stadium\\User Controls\\UC_SaveStadium.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Stadium\\User Controls\\UC_SaveStadium.cs [Design]",
+              "RelativeToolTip": "Forms\\Stadium\\User Controls\\UC_SaveStadium.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:09:22.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SaveStadiumForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Stadium\\SaveStadiumForm.cs",
+              "RelativeDocumentMoniker": "Forms\\Stadium\\SaveStadiumForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Stadium\\SaveStadiumForm.cs",
+              "RelativeToolTip": "Forms\\Stadium\\SaveStadiumForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:09:11.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SaveStadiumForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Stadium\\SaveStadiumForm.cs",
+              "RelativeDocumentMoniker": "Forms\\Stadium\\SaveStadiumForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Stadium\\SaveStadiumForm.cs [Design]",
+              "RelativeToolTip": "Forms\\Stadium\\SaveStadiumForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:09:09.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SaveClientForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Person\\Clients\\SaveClientForm.cs",
+              "RelativeDocumentMoniker": "Forms\\Person\\Clients\\SaveClientForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Person\\Clients\\SaveClientForm.cs",
+              "RelativeToolTip": "Forms\\Person\\Clients\\SaveClientForm.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACEAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:08:19.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SaveClientForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Person\\Clients\\SaveClientForm.cs",
+              "RelativeDocumentMoniker": "Forms\\Person\\Clients\\SaveClientForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Person\\Clients\\SaveClientForm.cs [Design]",
+              "RelativeToolTip": "Forms\\Person\\Clients\\SaveClientForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:08:16.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClsGlobal.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Global\\ClsGlobal.cs",
+              "RelativeDocumentMoniker": "Global\\ClsGlobal.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Global\\ClsGlobal.cs",
+              "RelativeToolTip": "Global\\ClsGlobal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAACLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:07:06.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SaveEmployeeStep1Form.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Person\\Employees\\SaveEmployeeStep1Form.cs",
+              "RelativeDocumentMoniker": "Forms\\Person\\Employees\\SaveEmployeeStep1Form.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Person\\Employees\\SaveEmployeeStep1Form.cs*",
+              "RelativeToolTip": "Forms\\Person\\Employees\\SaveEmployeeStep1Form.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwDAAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:07:58.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SaveEmployeeStep1Form.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Person\\Employees\\SaveEmployeeStep1Form.cs",
+              "RelativeDocumentMoniker": "Forms\\Person\\Employees\\SaveEmployeeStep1Form.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Person\\Employees\\SaveEmployeeStep1Form.cs [Design]*",
+              "RelativeToolTip": "Forms\\Person\\Employees\\SaveEmployeeStep1Form.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:07:56.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SaveUserStep1Form.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Person\\Employees\\User\\SaveUserStep1Form.cs",
+              "RelativeDocumentMoniker": "Forms\\Person\\Employees\\User\\SaveUserStep1Form.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Person\\Employees\\User\\SaveUserStep1Form.cs",
+              "RelativeToolTip": "Forms\\Person\\Employees\\User\\SaveUserStep1Form.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwBwAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:07:30.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SaveUserStep1Form.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Person\\Employees\\User\\SaveUserStep1Form.cs",
+              "RelativeDocumentMoniker": "Forms\\Person\\Employees\\User\\SaveUserStep1Form.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Person\\Employees\\User\\SaveUserStep1Form.cs [Design]",
+              "RelativeToolTip": "Forms\\Person\\Employees\\User\\SaveUserStep1Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:07:27.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ShowAllStadiumsForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Stadium\\ShowAllStadiumsForm.cs",
+              "RelativeDocumentMoniker": "Forms\\Stadium\\ShowAllStadiumsForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Stadium\\ShowAllStadiumsForm.cs*",
+              "RelativeToolTip": "Forms\\Stadium\\ShowAllStadiumsForm.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwCcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T18:44:20.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ShowAllStadiumsForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Stadium\\ShowAllStadiumsForm.cs",
+              "RelativeDocumentMoniker": "Forms\\Stadium\\ShowAllStadiumsForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Stadium\\ShowAllStadiumsForm.cs [Design]*",
+              "RelativeToolTip": "Forms\\Stadium\\ShowAllStadiumsForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T18:44:18.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UC_ShowStadiumCard.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\ArenaWhistle_ControlLibrary\\Stadiums\\UC_ShowStadiumCard.cs",
+              "RelativeDocumentMoniker": "..\\ArenaWhistle_ControlLibrary\\Stadiums\\UC_ShowStadiumCard.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\ArenaWhistle_ControlLibrary\\Stadiums\\UC_ShowStadiumCard.cs",
+              "RelativeToolTip": "..\\ArenaWhistle_ControlLibrary\\Stadiums\\UC_ShowStadiumCard.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAwwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T23:12:08.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "BookingStadiumForm.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Stadium\\Booking\\BookingStadiumForm.cs",
               "RelativeDocumentMoniker": "Forms\\Stadium\\Booking\\BookingStadiumForm.cs",
@@ -70,36 +305,33 @@
               "RelativeToolTip": "Forms\\Stadium\\Booking\\BookingStadiumForm.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwCEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T22:30:59.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-23T22:30:59.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 17,
               "Title": "BookingStadiumForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Stadium\\Booking\\BookingStadiumForm.cs",
               "RelativeDocumentMoniker": "Forms\\Stadium\\Booking\\BookingStadiumForm.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Stadium\\Booking\\BookingStadiumForm.cs [Design]",
               "RelativeToolTip": "Forms\\Stadium\\Booking\\BookingStadiumForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T22:30:57.216Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-23T22:30:57.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 19,
               "Title": "MainMenu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Main Menu\\MainMenu.cs",
               "RelativeDocumentMoniker": "Forms\\Main Menu\\MainMenu.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Main Menu\\MainMenu.cs [Design]",
               "RelativeToolTip": "Forms\\Main Menu\\MainMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T19:08:07.142Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-17T19:08:07.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 18,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arrena Whistle Presentation Layer (AdminApp)\\Forms\\Main Menu\\MainMenu.cs",
               "RelativeDocumentMoniker": "Forms\\Main Menu\\MainMenu.cs",
@@ -107,8 +339,7 @@
               "RelativeToolTip": "Forms\\Main Menu\\MainMenu.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAAAywHgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T13:00:02.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T13:00:02.469Z"
             }
           ]
         }

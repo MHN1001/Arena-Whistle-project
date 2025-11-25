@@ -47,7 +47,7 @@ namespace ShowAllStadiums_ControlLibrary.Stadiums
 
 
 
-        public void ResetAllControls()
+        public void ResetAll()
         {
             txtStadiumName.Text = string.Empty;
             txtSportType.Text = string.Empty;
@@ -59,6 +59,10 @@ namespace ShowAllStadiums_ControlLibrary.Stadiums
             txtLighting.Text = string.Empty;
             txtConveredHall.Text = string.Empty;
             txtAvailable.Text = string.Empty;
+
+            this.Stadium.RowsStadiumsRow = null;
+            this.Stadium.List_StadiumImages = null;
+            this.StadiumImageIndex = 0;
 
             pbStadiumImage.Image = Resources.Question;
 

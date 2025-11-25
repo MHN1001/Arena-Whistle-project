@@ -38,7 +38,6 @@ namespace Arrena_Whistle_Admin_Presentation_Layer.Forms.Stadium
             ShowStadiumsAsTableForm showStadiumsAsTableForm = new ShowStadiumsAsTableForm(obj, "All Stadiums");
             showStadiumsAsTableForm.MdiParent = this.MdiParent;
             showStadiumsAsTableForm.Show();
-
         }
 
         private void uC_ShowStadiums1_OnBookingNowButtonClicked(ShowAllStadiums_ControlLibrary.Stadiums.UC_ShowStadiums.TargetStadiumEventArgs obj)

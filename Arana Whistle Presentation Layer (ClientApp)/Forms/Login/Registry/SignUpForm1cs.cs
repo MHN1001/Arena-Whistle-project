@@ -29,7 +29,7 @@ namespace Arana_Whistle_Presentation_Layer.Login.Registry
         private void SignUpForm1cs_Load(object sender, EventArgs e)
         {
             uC_SavePerson1.Start(new ClsClient());
-            uC_SavePerson1.DestinationPath = "C:\\Users\\Admin\\source\\repos\\Arena Whistle Project\\Arena Whistle Photos\\Client Images";
+            uC_SavePerson1.DestinationPath = Global.DestinationFile;
         }
         private void uC_SavePerson1_OnPersonObjectPropertiesSavedSuccessfully(Arena_Whistle_Buisness_layerm.ClsPerson obj)
         {

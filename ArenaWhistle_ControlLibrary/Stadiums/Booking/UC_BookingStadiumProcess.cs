@@ -376,8 +376,8 @@ namespace ShowAllStadiums_ControlLibrary.Stadiums
 
             LocalVb.BookingTable = ClsBooking.GetSBookingTableForClient();
             //
-            LocalVb.chosenMinutes = GetMinutesBetween(dtpStartTime.Value.TimeOfDay, dtpEndTime.Value.TimeOfDay);
-
+            //LocalVb.chosenMinutes = GetMinutesBetween(dtpStartTime.Value.TimeOfDay, dtpEndTime.Value.TimeOfDay);
+            LocalVb.chosenMinutes = 59;
         }
         private void CheckRefereeAvailability()
         {

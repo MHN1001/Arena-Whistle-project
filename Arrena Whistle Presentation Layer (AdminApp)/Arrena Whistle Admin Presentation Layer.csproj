@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>account_user_avatar_worker_profile_job_employee_icon_261707.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Arena Whistle Buisness layer">
       <HintPath>..\BL &amp; DAL\Arena Whistle Buisness layer\bin\Debug\Arena Whistle Buisness layer.dll</HintPath>
@@ -619,6 +622,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Final logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="account_user_avatar_worker_profile_job_employee_icon_261707.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
