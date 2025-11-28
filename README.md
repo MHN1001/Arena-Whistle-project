@@ -13,7 +13,6 @@ This project demonstrates real-world software engineering practices including cl
 * Bookings, schedules, availability checks, and overlapping prevention
 * Users, roles, authentication, and permissions
 * Employees, referees, and departments
-* Payments, pricing, fines, and card processing
 * Client and administrative workflows
 
 The application emphasizes **practical use** of OOP principles, design patterns, data structures, custom controls, and advanced database programming.
