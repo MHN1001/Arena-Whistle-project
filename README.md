@@ -38,7 +38,6 @@ The application emphasizes **practical use** of OOP principles, design patterns,
 #### 💳 Payment System
 
 * Default and dynamic pricing
-* Support for multiple payment methods and card types
 * Fine calculation and tracking
 
 #### 👥 User & Admin Management
